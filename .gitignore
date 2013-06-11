@@ -1,2 +1,4 @@
 /vendor/
 /config/provider.json
+/cache/
+/composer.phar

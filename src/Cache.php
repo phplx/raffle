@@ -89,6 +89,12 @@ class Cache
      */
     protected function getCacheFilename()
     {
-        return sprintf('%s/../cache/%s.json', __DIR__, $this->key);
+        $dir = sprintf('%s/../cache', __DIR__);
+
+        if (!is_dir($dir)) {
+            mkdir($dir, 0755);
+        }
+
+        return sprintf('%s/%s.json', $dir, $this->key);
     }
 }
