@@ -9,7 +9,7 @@ This application is used to select registered attendees of the eventbrite events
 git clone https://github.com/phplx/raffle.git
 cd raffle
 git submodule update --init
-// download composer
+# download composer
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install -o
 ```
