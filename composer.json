@@ -1,0 +1,18 @@
+{
+    "name": "phplx/raffle",
+    "description": "Application to raffle prizes for phplx",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Samuel Gordalina",
+            "email": "samuel.gordalina@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "classmap": ["src/", "vendor/"],
+        "psr-0": {"phplx\\": "src/"}
+    }
+}

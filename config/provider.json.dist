@@ -1,0 +1,10 @@
+{
+    "class": "phplx\\Raffle\\Provider\\Eventbrite",
+    "parameters": {
+        "event_id": 123456789,
+        "authorization": {
+            "app_key": "your app key",
+            "user_key": "your user key"
+        }
+    }
+}

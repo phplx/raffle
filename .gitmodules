@@ -1,0 +1,3 @@
+[submodule "vendor/ryanjarvinen/eventbrite.php"]
+	path = vendor/ryanjarvinen/eventbrite.php
+	url = git://github.com/ryanjarvinen/eventbrite.php.git
