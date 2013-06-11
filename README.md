@@ -2,14 +2,16 @@
 
 This application is used to select registered attendees of the eventbrite events for phplx meetups.
 
-## Install
+## Install via Composer
+
 
 ```
 git clone https://github.com/phplx/raffle.git
 cd raffle
-git submodule init
-git submodule update
-composer install
+git submodule update --init
+# download composer
+curl -sS https://getcomposer.org/installer | php
+php composer.phar install -o
 ```
 
 ## Run
